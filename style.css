@@ -1,0 +1,56 @@
+body {
+  background-color: #c3b091;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: darkgreen;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 7px;
+}
+
+img {
+  border-radius: 10px;
+  width: 400px;
+}
+
+table {
+  width: 38%;
+  background-color: #548854;
+  border: 1px solid green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#mensagem {
+  display: none;
+}
